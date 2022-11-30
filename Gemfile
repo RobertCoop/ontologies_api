@@ -10,14 +10,14 @@ gem 'oj', '~> 2.0'
 gem 'parseconfig'
 gem 'rack'
 gem 'rake', '~> 10.0'
-gem 'sinatra', '~> 1.0'
+gem 'sinatra', '~> 3.0'
 gem 'sinatra-advanced-routes'
-gem 'sinatra-contrib', '~> 1.0'
+gem 'sinatra-contrib', '~> 3.0'
 
 # Rack middleware
 gem 'ffi'
 gem 'rack-accept', '~> 0.4'
-gem 'rack-attack', '~> 5.4.2', require: 'rack/attack'
+gem 'rack-attack', '~> 6.6.1', require: 'rack/attack'
 gem 'rack-cache', '~> 1.0'
 gem 'rack-cors', require: 'rack/cors'
 gem 'rack-post-body-to-params', git: 'https://github.com/palexander/rack-post-body-to-params.git', branch: "multipart_support" # github dependency can be removed when https://github.com/niko/rack-post-body-to-params/pull/6 is merged and released
