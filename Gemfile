@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'activesupport', '~> 3.0'
+gem 'activesupport', '~> 7.0'
 # see https://github.com/ncbo/ontologies_api/issues/69
 gem 'bigdecimal', '1.4.2'
 gem 'google-api-client', '~> 0.10'
@@ -67,7 +67,7 @@ group :profiling do
 end
 
 group :test do
-  gem 'minitest', '~> 4.0'
+  gem 'minitest', '~> 5.19'
   gem 'minitest-stub_any_instance'
   gem 'rack-test'
   gem 'simplecov', require: false
